@@ -65,15 +65,26 @@ Este proyecto integra sistemas desacoplados usando Apache Camel y RabbitMQ, apli
 
 ## Estructura del Proyecto
 
+```
 camel-rabbit-lab/
 ├── src/
-│ ├── main/java/com/ejemplo/camel/
-│ │ ├── MainApp.java
-│ │ ├── ProducerRoute.java
-│ │ └── ConsumerRoute.java
-│ └── test/java/com/ejemplo/camel/
-│ └── AppTest.java
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── ejemplo/
+│   │               └── camel/
+│   │                   ├── MainApp.java
+│   │                   ├── ProducerRoute.java
+│   │                   └── ConsumerRoute.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── ejemplo/
+│                   └── camel/
+│                       └── AppTest.java
 ├── pom.xml
+```
+
 
 
 ## Funcionamiento
