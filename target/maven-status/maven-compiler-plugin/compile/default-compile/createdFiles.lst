@@ -1,0 +1,3 @@
+com\ejemplo\camel\MainApp.class
+com\ejemplo\camel\ConsumerRoute.class
+com\ejemplo\camel\ProducerRoute.class
